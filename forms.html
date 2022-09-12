@@ -1,11 +1,72 @@
 <html>
 
 <head>
-    <title>the forms page</title>
+    <title>Chihuahua form</title>
 </head>
 
 <body>
-    <p>cool</p>
+    <section id="header image">
+        <img src="http://4.bp.blogspot.com/-JKVrVYOnrKs/TgXUqdAjZMI/AAAAAAAABGo/gmq2Cbkl_d4/s1600/She%2527s%2Ba%2Bbit%2Bruff%2BChinese-crested%2BChihuahua%2Bmix%2Bwins%2Bthe%2BWorld%2527s%2BUgliest%2BDog%2Btitle%2B11.jpg"
+            alt="A regal champion chihuahua held above a trophy">
+        <form action="/datasenthere.html" method="POST">
+    </section>
+    <section class="intro">
+        <h1>Tell us About Your Chihuahua</h1>
+        <p>Use this form to share details about your chihuahua. This will help us keep a record of cutie pies
+            that
+            exist
+            in the world</p>
+    </section>
+
+    <section class="name">
+        <label for="ChiName"> What is your Chihuahua's name?</label>
+        <input id="ChiName" name="Name" type="text">
+    </section>
+
+    <section class="physical_attributes">
+        <label for="age">How many years old are they?</label>
+        <input id="age" name="age" type="number" step="1">
+
+        <label for="colour">What colour are they?</label>
+        <input id="colour" name="colour" type="text">
+
+        <span>What type of fur do they have?
+        </span>
+        <label for="long">long</label>
+        <input id="long" name="fur type" type="radio" value="long">
+
+        <label for="short">short</label>
+        <input id="short" name="fur type" type="radio" value="short">
+    </section>
+
+    <section class="personality">
+        <label for="attitude">What kind of temparement do they have?</label>
+        <br>
+        <span>Little Psycho</span>
+        <input id="attitude" name="temparament" type="range" min="0" max="6" step="1">
+        <span>Calm</span>
+
+        <label for="treats">What are their favourite treats?</label>
+        <input id="treats" name="treats" type="text" list="treattypes">
+
+        <datalist id="treattypes">
+            <option value="Cheese">Cheese</option>
+            <option value="Carob">Carob</option>
+            <option value="Biscuits">Biscuits</option>
+            <option value="Chicken">Chicken</option>
+            <option value="Liver pate">Liver pate</option>
+            <option value="Beef sticks">Beef sticks</option>
+            <option value="Apples">Apples</option>
+            <option value="yomama">Yo mama</option>
+        </datalist>
+    </section>
+    </form>
+
+    <section class="back">
+        <p> Thank you for completing the form.
+        </p>
+        <p><a href="index.html">Return to the home page</a></p>
+    </section>
 </body>
 
 </html>
