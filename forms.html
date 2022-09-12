@@ -20,20 +20,20 @@
 
     <section class="name">
         <label for="ChiName"> What is your Chihuahua's name?</label>
-        <input id="ChiName" name="Name" type="text">
+        <input id="ChiName" name="Name" type="text" minlength="2" maxlength="15" required>
     </section>
 
     <section class="physical_attributes">
         <label for="age">How many years old are they?</label>
-        <input id="age" name="age" type="number" step="1">
+        <input id="age" name="age" type="number" step="1" min="0" max="20" required>
 
         <label for="colour">What colour are they?</label>
-        <input id="colour" name="colour" type="text">
+        <input id="colour" name="colour" type="text" required>
 
         <span>What type of fur do they have?
         </span>
         <label for="long">long</label>
-        <input id="long" name="fur type" type="radio" value="long">
+        <input id="long" name="fur type" type="radio" value="long" required>
 
         <label for="short">short</label>
         <input id="short" name="fur type" type="radio" value="short">
