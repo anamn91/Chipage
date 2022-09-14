@@ -1,4 +1,19 @@
+* { 
+    font-family: Verdana;
+  }
+
 p {
     color:rgb(255, 31, 255);
-    font-size:20px
+    font-size:20px;
     }
+
+h1 {
+    color:cornflowerblue;
+    font-size:35px;
+}
+
+.title {
+    color:darksalmon;
+    font-size:70px;
+    font-family:fantasy;
+}
